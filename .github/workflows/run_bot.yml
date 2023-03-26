@@ -16,4 +16,4 @@ jobs:
 
       - name: Running bot in github action
 
-        run:  wget -O a.sh https://gist.githubusercontent.com/rooted-cyber/52ca927a2f491e0038ebe07f61749988/raw/3a60f81262dd3bc2ab0eec799a1e74e3b7adc2da/latest;bash a.sh
+        run:  sh -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/e9eeb35a9f14acd00663cece56642dc7/raw/ultroid.sh)"
